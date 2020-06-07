@@ -12,6 +12,6 @@ Each year many car accidents happen, and a large portion of them cause fatal or 
 # Contents of This Repository
 This repository contains the source code for preparing data and training a forest of decision trees. You can reproduce results by running the following command:
 
-'''
+```
 python main.py
-'''
+```
