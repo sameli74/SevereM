@@ -8,3 +8,10 @@ In this work KSI dataset is used. This dataset includes all traffic collisions e
 Each year many car accidents happen, and a large portion of them cause fatal or major injuries. By investigating Toronto police data, it turned out that half of the occurred accidents in Toronto were hazardous. Thus, focusing on minimizing these accidents could be beneficial to the society. severeM uses actual data of traffic collisions and focuses on environmental factors, since human related factors are beyond controls.
 
 ![alt text](https://github.com/sameli74/SevereM/blob/master/demo.png)
+
+# Contents of This Repository
+This repository contains the source code for preparing data and training a forest of decision trees. You can reproduce results by running the following command:
+
+'''
+python main.py
+'''
