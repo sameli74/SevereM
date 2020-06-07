@@ -1,6 +1,10 @@
 # SevereM
-This project presents severeM, a classifier for predicting severity of a car accident at a location based on the characteristics of the location. Each year many car accidents happen, and a large portion of them cause fatal or major injuries. By investigating Toronto police data, it turned out that half of the occurred accidents in Toronto were hazardous. Thus, focusing on minimizing these accidents could be beneficial to the society. severeM tries to use data of traffic accidents and eliminates human related factors, since human related factors are beyond controls. Result showed that the model cannot learn the data due to the very complex nature of data. Note that It could not be said for sure that using only environment-related features led to poor performance. Although this claim might be true about this dataset, it needs to be tested on other datasets as well. Nevertheless, it could be said that severeM could not be implemented using KSI dataset, and its performance should be investigated more on other similar datasets.
+A system suggesting most important environmental factors that affect car accidents using a forest of decision trees. 
 
-In addition, importance of features in KSI dataset is investigated and shown in the following graph. Although it might seem that some environment-related factors such as visibility and road surface condition would have more impact than knowing information such as coordinates and time, it was shown that environment-related factors' importance in this dataset is so low that they could be discarded. However, this might not be the same for other dataset and more investigation on other datasets is required.
+# Dataset
+In this work KSI dataset is used. This dataset includes all traffic collisions events where a person was either Killed or Seriously Injured (KSI) from 2006 – 2019.
+
+# Motivaton
+Each year many car accidents happen, and a large portion of them cause fatal or major injuries. By investigating Toronto police data, it turned out that half of the occurred accidents in Toronto were hazardous. Thus, focusing on minimizing these accidents could be beneficial to the society. severeM uses actual data of traffic collisions and focuses on environmental factors, since human related factors are beyond controls.
 
 ![alt text](https://github.com/sameli74/SevereM/blob/master/demo.png)
